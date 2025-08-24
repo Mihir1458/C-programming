@@ -11,18 +11,19 @@ int main()
     scanf("%f",&cv);
     printf("at what speed runner is running (in mintues) :-");
     scanf("%f",&ti);
-   for (float k=0;k<=km;k=k+cv) 
+    float i=0;
+   for (float k=cv;k<=km;k=k+cv) 
     {
-        for (float i=0;i<=10;i=i+ti)
+        float i=(i+ti);
         {
-            printf("Mintues %f :- Distance coverage %f \n",i,k );
-          break;
+            printf("Mintues %f :- Distance coverage %f \n",i,k);
+          
         }
+        
     
     }
 
 printf("Meraton is compeleted!!");
 return 0;
 }
-
 
