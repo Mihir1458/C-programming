@@ -2,21 +2,19 @@
 
 int main()
 {
-    float km;
-    float ti;
-    float cv;
+    double km,ti,cv;
     printf("hoe many kilometer maraton is :-");
-    scanf("%f",&km);
+    scanf("%lf",&km);
     printf("how much it runner in kilometer in your time :-");
-    scanf("%f",&cv);
+    scanf("%lf",&cv);
     printf("at what speed runner is running (in mintues) :-");
-    scanf("%f",&ti);
-    
-   for (float k=cv;k<=km;k=k+cv) 
+    scanf("%lf",&ti);
+    double i=0;
+   for (double k=cv;k<=km;k=k+cv) 
     {
-        float i=(i+ti);
+       double i=(i+ti);
         {
-            printf("Mintues %f :- Distance coverage %f \n",i,k);
+            printf("Mintues %lf :- Distance coverage %lf \n",i,k);
           
         }
         
@@ -26,4 +24,3 @@ int main()
 printf("Meraton is compeleted!!");
 return 0;
 }
-
