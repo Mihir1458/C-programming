@@ -11,7 +11,7 @@ int main()
     scanf("%f",&cv);
     printf("at what speed runner is running (in mintues) :-");
     scanf("%f",&ti);
-    float i=0;
+    
    for (float k=cv;k<=km;k=k+cv) 
     {
         float i=(i+ti);
