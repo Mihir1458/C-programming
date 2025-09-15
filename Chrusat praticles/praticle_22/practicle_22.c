@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-#define reserved 'r'
-#define avalabile 'A'
+#define reserved 'B'
+#define avalabile 'X'
 
 void seatmatrix(int rows, int clons,char seats[rows][clons])
 {
