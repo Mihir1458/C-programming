@@ -136,7 +136,7 @@ void bookaseat(int rows,int clons,char seats[rows][clons])
      
              if (k5<=rows && c5<=clons && k5>=0 && c5>=0)
             {
-                printf("the seat (%d,%d) is %c\n",k5,c5,seats[k5-1][c5-1]);
+                printf("the seat (%d,%d) is %c\n ",k5,c5,seats[k5-1][c5-1]);
             }
             else {
                 printf("Invalid input !!!");
